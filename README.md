@@ -22,26 +22,26 @@ This project was built with Truffle and zeppelin-solidity.
 
 
 
-### Clone:
+### :one: Clone:
 
 
 ``` git clone https://github.com/Ahmed-khoj/Electronic-medical-records ```
 
 
-### Install npm:
+### :two: Install npm:
 
 
 ``` npm install ```
 
 
 
-### Install Truffle:
+### :three: Install Truffle:
 
 ``` npm install -g truffle ```
 
 
 
-### To use Truffle:
+### :four: To use Truffle:
 
 ``` truffle develop ```
 
@@ -68,7 +68,7 @@ This project was built with Truffle and zeppelin-solidity.
 
 
 
-### To run front end:
+### :five: To run front end:
 
 
 ``` npm run dev ```
