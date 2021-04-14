@@ -1,5 +1,5 @@
 # Electronic-medical-records
-!!!! This is a proof-of-concept project and was designed for testing and educational purposes!!!!
+!!!!This is a proof-of-concept project and was designed for testing and educational purposes!!!!
 
 
 
