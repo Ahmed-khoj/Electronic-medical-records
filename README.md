@@ -28,6 +28,12 @@ Clone:
 git clone https://github.com/Ahmed-khoj/Electronic-medical-records
 
 
+install npm:
+
+
+npm install
+
+
 
 To enter Truffle:
 
