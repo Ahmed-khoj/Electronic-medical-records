@@ -28,19 +28,19 @@ This project was built with Truffle and zeppelin-solidity.
 git clone https://github.com/Ahmed-khoj/Electronic-medical-records
 
 
-#### install npm:
+### install npm:
 
 
 npm install
 
 
 
-##### To enter Truffle:
+### To use Truffle:
 
 truffle develop
 
 
-###### To compile:
+#### To compile:
 
 
 
@@ -48,13 +48,13 @@ truffle(develop)> compile
 
 
 
-####### To migrate:
+#### To migrate:
 
 truffle(develop)> migrate
 
 
 
-######## To test:
+#### To test:
 
 
 
@@ -62,9 +62,18 @@ truffle(develop)> test
 
 
 
-######### To run front end:
+### To run front end:
 
 
 npm run dev
+
+
+## contributors:
+
+### Ahmed Khoj
+### Munairah Alsharif
+### Dalia Alghamdi
+### Ibrahim Aljadani
+### Maha Saad
 
 
