@@ -22,7 +22,7 @@ This project was built with Truffle and zeppelin-solidity.
 
 
 
-Clone
+Clone:
 
 
 git clone https://github.com/Ahmed-khoj/Electronic-medical-records
