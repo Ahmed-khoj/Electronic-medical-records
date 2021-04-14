@@ -3,7 +3,7 @@
 
 
 
-A blockchain-based medical record smart contract on Ethereum.
+## A blockchain-based medical record smart contract on Ethereum using Solidity code language.
 
 
 
@@ -22,25 +22,25 @@ This project was built with Truffle and zeppelin-solidity.
 
 
 
-Clone:
+### Clone:
 
 
 git clone https://github.com/Ahmed-khoj/Electronic-medical-records
 
 
-install npm:
+#### install npm:
 
 
 npm install
 
 
 
-To enter Truffle:
+##### To enter Truffle:
 
 truffle develop
 
 
-To compile:
+###### To compile:
 
 
 
@@ -48,13 +48,13 @@ truffle(develop)> compile
 
 
 
-To migrate:
+####### To migrate:
 
 truffle(develop)> migrate
 
 
 
-To test:
+######## To test:
 
 
 
@@ -62,7 +62,7 @@ truffle(develop)> test
 
 
 
-To run front end:
+######### To run front end:
 
 
 npm run dev
