@@ -1,5 +1,5 @@
 # Electronic-medical-records
-!!!!This is a proof-of-concept project and was designed for testing and educational purposes!!!!
+:exclamation: :exclamation: :exclamation: This is a proof-of-concept project and was designed for testing and educational purposes :exclamation: :exclamation: :exclamation:
 
 
 
@@ -28,10 +28,16 @@ This project was built with Truffle and zeppelin-solidity.
 ``` git clone https://github.com/Ahmed-khoj/Electronic-medical-records ```
 
 
-### install npm:
+### Install npm:
 
 
 ``` npm install ```
+
+
+
+### Install Truffle:
+
+``` npm install -g truffle ```
 
 
 
