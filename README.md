@@ -7,7 +7,7 @@
 
 
 
-The smart contract should give patients the ability to add records, give permissions, and revoke permissions.
+The smart contract should give patients the ability to add records, give permissions, and revoke permissions. It suppose to reward patients for adding medical records to the system.
 
 
 
@@ -69,6 +69,13 @@ This project was built with Truffle and zeppelin-solidity.
 
 
 ### :five: To run front end:
+
+Setup a MetaMask wallet to send transactions.
+
+#### To start front end using webpack:
+
+``` npx truffle unbox webpack ```
+
 
 
 ``` npm run dev ```
