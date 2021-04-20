@@ -1,31 +1,111 @@
-<html> 
-  <style>
-    input {
-      display: block;
-      margin-bottom: 12px;
-    }
-  </style>
-    <title>
-      Hospital
-    </title> 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
 <body>
-            <center>
-               <font face="Calibri Light " size="8" color="#fff">↬ Patient Registration ↫</font>
-               <br/>
-              <input type="number" id="PId" placeholder="Patient ID"/>
-              <input type="text" id="PName" placeholder="Patient Name"/>
-              <input type="number"id="PAge"  placeholder="Patient Age"/>
-              <input type="text" id="PGender"  placeholder="Patient Gender"/>
-              <input type="text" id="PAddress" placeholder="Patient Address"/>
-              <input type="text" id="VisitRea" placeholder="Visit Reason"/>  
-               <br/>
-              <button onclick="App.addpatient()">Register</button>
-              <br/><br/>
-              
-  
-  <p id="status"></p>
-  <script src="index.js"></script>
-    
-  </body>
+    <script src="index.js"></script>
+    <div class="container">
+    <div class="bbb">
+  <div class="container3">
+    <div class="title"> Patient Registration</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Patient ID</span>
+            <input type="text" id="PId" placeholder=" Id" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Patient Name</span>
+            <input type="text" id="PName" placeholder="Name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Patient Age</span>
+            <input type="text" id="PAge" placeholder=" Age" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Patient Gender</span>
+            <input type="text" id="PGender"  placeholder="Gender" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Patient Address</span>
+            <input type="text" id="PAddress" placeholder="Address" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Visit Reason</span>
+            <input type="text" id="VisitRea" placeholder="Reason" required>
+          </div>
+        </div>
+        <div class="button">
+            <button onclick="App.addpatient()">Register</button>
+           
+            
+        </div>
+      </form>
+    </div> 
+  </div>
+</div>
+<p id="status" class="color"></p>
+<div class="navbar2">
+  <ul>
+      <li>
+          <a href="Mainpage.html">
+              <div class="icon">
+                  <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                  <i class="fa fa-heartbeat" aria-hidden="true"></i>
+              </div>
+              <div class="name" data-text>Home</div>
+          </a>
+      </li>
+  </ul>
+  <ul>
+      <li>
+          <a href="Patient.html">
+              <div class="icon">
+                  <i class="fa fa-users" aria-hidden="true"></i>
+                  <i class="fa fa-users" aria-hidden="true"></i>   
+              </div>
+              <div class="name">Patient</div>
+          </a>
+      </li>
+  </ul>
+  <ul>
+      <li>
+          <a href="Doctors.html">
+              <div class="icon">
+                  <i class="fa fa-user-md" aria-hidden="true"></i> 
+                  <i class="fa fa-user-md" aria-hidden="true"></i> 
+              </div>
+              <div class="name">Doctor</div>
+          </a>
+      </li>
+  </ul>
+  <ul>
+      <li>
+          <a href="index.html">
+              <div class="icon">
+                  <i class="fa fa-hospital-o" aria-hidden="true"></i>
+                  <i class="fa fa-hospital-o" aria-hidden="true"></i>
+              </div>
+              <div class="name">Hospital</div>
+          </a>
+      </li>
+  </ul>
+  <ul>
+      <li>
+          <a href="Insurance.html">
+              <div class="icon">
+                  <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                  <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+              </div>
+              <div class="name">Insurance</div>
+          </a>
+      </li>
+  </ul>
+</div>
 
+</body>
 </html>
